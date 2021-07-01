@@ -3133,7 +3133,7 @@ raw_input("[=] Press enter to start")
 while True:
     q = random.randint(1,316)
     print(questions[q] + "\n")
-    a = raw_input("Answer: ")
+    a = input("Answer: ")
     if a.upper() in answers[q]:
         print("[+] Correct Answer, Good! \n")
     else:
